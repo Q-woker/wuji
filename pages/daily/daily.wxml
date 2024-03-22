@@ -1,0 +1,22 @@
+<!--pages/daily/daily.wxml-->
+
+<view class="body">
+  <view class="time">{{time}}
+  </view>
+
+  <view class="banner">
+    <image src="{{banner}}"></image>
+  </view>
+
+  <view class="add">
+    +
+  </view>
+
+  <view class="list">
+   <view class="title">日记</view>
+   <view class="container">
+   22222
+   </view>
+  </view>
+
+</view>

@@ -1,0 +1,40 @@
+
+{
+  "pages":[
+    "pages/index/index",
+    "pages/daily/daily",
+    "pages/live/live"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "无记",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+      "list": [
+        { 
+            "text": "提醒",
+            "pagePath": "pages/index/index",
+            "iconPath": "img/待处理.png",
+            "selectedIconPath": "img/待处理 (1).png"
+
+        },
+        {
+            "text": "日记",
+            "pagePath": "pages/daily/daily",
+            "iconPath": "img/记录.png",
+            "selectedIconPath": "img/记录 (1).png"
+        },
+        {
+            "text": "纪念",
+            "pagePath": "pages/live/live",
+            "iconPath": "img/纪念日.png",
+            "selectedIconPath": "img/纪念日 (1).png"
+        }
+
+      ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
